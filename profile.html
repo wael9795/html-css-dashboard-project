@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile-my</title>
+    <!-- fontawesom file -->
+    <link rel="stylesheet" href="cssFiles/all.min.css">
+    <!-- normalize file -->
+    <link rel="stylesheet" href="cssFiles/normalize.css">
+    <!-- framework file -->
+    <link rel="stylesheet" href="cssFiles/framework.css">
+    <!-- main css file -->
+    <link rel="stylesheet" href="cssFiles/cssMain.css">
+    <!-- font links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cairo:slnt,wght@-11..11,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- start page -->
+    <div class="page d-flex">
+        <!-- start sidebar -->
+        <div class="sidebar bg-white p-20 p-rel">
+            <h3 class="m-auto f-bold mt-0 p-rel">elzero</h3>
+            <ul>
+                <li>
+                    <a class="p-10 c-black rad-10 d-flex align-center" href="index.html">
+                        <i class="fa-solid fa-house mr-10 f-14 fa-fw d-block"></i>
+                        <span class="f-14 d-block mobile-hidden">dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="p-10 c-black rad-10 d-flex align-center" href="sittings.html">
+                        <i class="fa-solid fa-gear mr-10 f-14 fa-fw d-block"></i>
+                        <span class="f-14 d-block mobile-hidden">sittings</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="active p-10 c-black rad-10 d-flex align-center" href="profile.html">
+                        <i class="fa-solid fa-address-card mr-10 f-14 fa-fw d-block"></i>
+                        <span class="f-14 d-block mobile-hidden">profile</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="p-10 c-black rad-10 d-flex align-center" href="projects.html">
+                        <i class="fa-solid fa-diagram-project mr-10 f-14 fa-fw d-block"></i>
+                        <span class=" f-14 d-block mobile-hidden">projects</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="p-10 c-black rad-10 d-flex align-center" href="courses.html">
+                        <i class="fa-solid fa-graduation-cap mr-10 f-14 fa-fw d-block"></i>
+                        <span class="f-14 d-block mobile-hidden">courses</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="p-10 c-black rad-10 d-flex align-center" href="friends.html">
+                        <i class="fa-solid fa-user-group mr-10 f-14 fa-fw d-block"></i>
+                        <span class="f-14 d-block mobile-hidden">friends</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="p-10 c-black rad-10 d-flex align-center" href="files.html">
+                        <i class="fa-solid fa-file mr-10 f-14 fa-fw d-block"></i>
+                        <span class="f-14 d-block mobile-hidden">files</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="p-10 c-black rad-10 d-flex align-center" href="plans.html">
+                        <i class="fa-solid fa-credit-card mr-10 f-14 fa-fw d-block"></i>
+                        <span class="f-14 d-block mobile-hidden">plans</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- end sidebar -->
+        <!-- start content -->
+        <div class="content hidden">
+            <!-- start head -->
+            <div class="head bg-white flex-between">
+                <div class="search d-flex align-center rad-10 hidden">
+                    <i class="fa-solid fa-magnifying-glass d-inblock ml-10 c-gray"></i>
+                    <input class="d-inblock p-10 f-14" placeholder="type a keyword" type="search" name="" id="">
+                </div>
+                <div class="icons d-flex align-center">
+                    <div class="bell"><i class="fa-solid fa-bell"></i></div>
+                    <img src="images/avatar.png" alt="">
+                </div>
+            </div>
+            <!-- end head -->
+
+            <!-- start profile page -->
+            <div class="profile-page m-20">
+                <h1 class="p-rel w-fit pb-15 mt-0 mb-30">Profile</h1>
+
+                <!-- start profile cards -->
+                <!-- start level -->
+                <div class="level rad-10 d-flex align-center bg-white">
+                    <div class="foto p-20 p-rel d-flex flex-column align-center">
+                        <img class="d-inblock mb-15" src="images/avatar.png" alt="">
+                        <h3 class="mb-15 mt-0">Osama Elzero</h3>
+                        <span class="line d-inblock c-gray mb-20 p-rel pb-15">Level 20</span>
+                        <div class="stars d-flex align-center mb-15">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <span class="c-gray f-14">550 Rating</span>
+                    </div>
+                    <div class="foto-cards p-rel">
+                        <div class="box p-20">
+                            <p class="mt-0 mb-15 c-gray">General Information</p>
+                            <div class="info d-flex align-center">
+                                <span class="parent d-block c-gray f-14">Full Name<span class="ml-5 c-black">Osama
+                                        Mohamed</span></span>
+                                <span class="parent d-block c-gray f-14">Gender<span
+                                        class="ml-5 c-black">Male</span></span>
+                                <span class="parent d-block c-gray f-14">Country<span
+                                        class="ml-5 c-black">Egypt</span></span>
+                                <div class="parent check p-rel">
+                                    <input type="checkbox" checked>
+                                    <div class="icon">
+                                        <i class="fa-solid fa-circle-xmark"></i>
+                                        <i class="fa-solid fa-circle-check"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box p-20">
+                            <p class="mt-0 mb-15 c-gray">Personal Information</p>
+                            <div class="info d-flex align-center">
+                                <span class="parent d-block c-gray f-14">Full Name<span class="ml-5 c-black">Osama
+                                        Mohamed</span></span>
+                                <span class="parent d-block c-gray f-14">Gender<span
+                                        class="ml-5 c-black">Male</span></span>
+                                <span class="parent d-block c-gray f-14">Country<span
+                                        class="ml-5 c-black">Egypt</span></span>
+                                <div class="parent check p-rel">
+                                    <input type="checkbox">
+                                    <div class="icon">
+                                        <i class="fa-solid fa-circle-xmark"></i>
+                                        <i class="fa-solid fa-circle-check"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box p-20">
+                            <p class="mt-0 mb-15 c-gray">Job Information</p>
+                            <div class="info d-flex align-center">
+                                <span class="parent d-block c-gray f-14">Full Name<span class="ml-5 c-black">Osama
+                                        Mohamed</span></span>
+                                <span class="parent d-block c-gray f-14">Gender<span
+                                        class="ml-5 c-black">Male</span></span>
+                                <span class="parent d-block c-gray f-14">Country<span
+                                        class="ml-5 c-black">Egypt</span></span>
+                                <div class="parent check p-rel">
+                                    <input type="checkbox" checked>
+                                    <div class="icon">
+                                        <i class="fa-solid fa-circle-xmark"></i>
+                                        <i class="fa-solid fa-circle-check"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box p-20">
+                            <p class="mt-0 mb-15 c-gray">Billing Information</p>
+                            <div class="info d-flex align-center">
+                                <span class="parent d-block c-gray f-14">Full Name<span class="ml-5 c-black">Osama
+                                        Mohamed</span></span>
+                                <span class="parent d-block c-gray f-14">Gender<span
+                                        class="ml-5 c-black">Male</span></span>
+                                <span class="parent d-block c-gray f-14">Country<span
+                                        class="ml-5 c-black">Egypt</span></span>
+                                <div class="parent check p-rel">
+                                    <input type="checkbox" checked>
+                                    <div class="icon">
+                                        <i class="fa-solid fa-circle-xmark"></i>
+                                        <i class="fa-solid fa-circle-check"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end level -->
+                <!-- start skills -->
+                <div class="skills d-flex">
+                    <div class="my-skill bg-white rad-10 p-20">
+                        <h2 class="mt-0 mb-10">My Skiils</h2>
+                        <p class="f-14 c-gray mb-20 mt-0">Complete Skills List</p>
+                        <div class="box d-flex align-center pt-15 pb-15 f-14">
+                            <span class="d-inblock p-5 rad-7">HTML</span>
+                            <span class="d-inblock p-5 rad-7">Pugjs</span>
+                            <span class="d-inblock p-5 rad-7">HAML</span>
+                        </div>
+                        <div class="box d-flex align-center pt-15 pb-15 f-14">
+                            <span class="d-inblock p-5 rad-7">CSS</span>
+                            <span class="d-inblock p-5 rad-7">SASS</span>
+                            <span class="d-inblock p-5 rad-7">Stylus</span>
+                        </div>
+                        <div class="box d-flex align-center pt-15 pb-15 f-14">
+                            <span class="d-inblock p-5 rad-7">JavaScript</span>
+                            <span class="d-inblock p-5 rad-7">TypeScript</span>
+                        </div>
+                        <div class="box d-flex align-center pt-15 pb-15 f-14">
+                            <span class="d-inblock p-5 rad-7">Vuejs</span>
+                            <span class="d-inblock p-5 rad-7">Reactjs</span>
+                        </div>
+                        <div class="box d-flex align-center pt-15 pb-15 f-14">
+                            <span class="d-inblock p-5 rad-7">Jest</span>
+                            <span class="d-inblock p-5 rad-7">Jasmine</span>
+                        </div>
+                        <div class="box d-flex align-center pt-15 pb-15 f-14">
+                            <span class="d-inblock p-5 rad-7">PHP</span>
+                            <span class="d-inblock p-5 rad-7">Laravel</span>
+                        </div>
+                        <div class="box d-flex align-center pt-15 f-14">
+                            <span class="d-inblock p-5 rad-7">Python</span>
+                            <span class="d-inblock p-5 rad-7">Django</span>
+                        </div>
+                    </div>
+                    <div class="fotos bg-white rad-10 p-20">
+                        <h2 class="mt-0 mb-10">Latest Activities</h2>
+                        <p class="mt-0 mb-20 c-gray f-14">Latest Activities Done By The User</p>
+                        <div class="box d-flex align-center pb-15">
+                            <img class="d-inblock" src="images/activity-01.png" alt="">
+                            <div class="text flex-between">
+                                <div class="part">
+                                    <p class="mt-0 mb-10">Store</p>
+                                    <span class="f-14 c-gray">Bought The Mastering Python Course</span>
+                                </div>
+                                <div class="part text-e">
+                                    <p class="mt-0 mb-10">18:10</p>
+                                    <span class="f-14 c-gray">Yesterday</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box d-flex align-center pt-15 pb-15">
+                            <img class="d-inblock" src="images/activity-02.png" alt="">
+                            <div class="text flex-between">
+                                <div class="part">
+                                    <p class="mt-0 mb-10">Academy</p>
+                                    <span class="f-14 c-gray">Got The PHP Certificate</span>
+                                </div>
+                                <div class="part text-e">
+                                    <p class="mt-0 mb-10">16:05</p>
+                                    <span class="f-14 c-gray">Yesterday</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box d-flex align-center pt-15 pb-15">
+                            <img class="d-inblock" src="images/activity-03.png" alt="">
+                            <div class="text flex-between">
+                                <div class="part">
+                                    <p class="mt-0 mb-10">Badges</p>
+                                    <span class="f-14 c-gray">Unlocked The 10 Skills Badge</span>
+                                </div>
+                                <div class="part text-e">
+                                    <p class="mt-0 mb-10">18:05</p>
+                                    <span class="f-14 c-gray">Yesterday</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box d-flex align-center pt-15">
+                            <img class="d-inblock" src="images/activity-01.png" alt="">
+                            <div class="text flex-between">
+                                <div class="part">
+                                    <p class="mt-0 mb-10">Store</p>
+                                    <span class="f-14 c-gray">Bought The Typescript Course</span>
+                                </div>
+                                <div class="part text-e">
+                                    <p class="mt-0 mb-10">12:05</p>
+                                    <span class="f-14 c-gray">Yesterday</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end skills -->
+                <!-- end profile cards -->
+            </div>
+            <!-- end profile page -->
+        </div>
+        <!-- end content -->
+    </div>
+    <!-- end page -->
+</body>
+
+</html>

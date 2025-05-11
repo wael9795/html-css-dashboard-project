@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Files-my</title>
+    <!-- fontawesom file -->
+    <link rel="stylesheet" href="cssFiles/all.min.css">
+    <!-- normalize file -->
+    <link rel="stylesheet" href="cssFiles/normalize.css">
+    <!-- framework file -->
+    <link rel="stylesheet" href="cssFiles/framework.css">
+    <!-- main css file -->
+    <link rel="stylesheet" href="cssFiles/cssMain.css">
+    <!-- font links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cairo:slnt,wght@-11..11,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- start page -->
+    <div class="page d-flex">
+        <!-- start sidebar -->
+        <div class="sidebar bg-white p-20 p-rel">
+            <h3 class="m-auto f-bold mt-0 p-rel">elzero</h3>
+            <ul>
+                <li>
+                    <a class="p-10 c-black rad-10 d-flex align-center" href="index.html">
+                        <i class="fa-solid fa-house mr-10 f-14 fa-fw d-block"></i>
+                        <span class="f-14 d-block mobile-hidden">dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="p-10 c-black rad-10 d-flex align-center" href="sittings.html">
+                        <i class="fa-solid fa-gear mr-10 f-14 fa-fw d-block"></i>
+                        <span class="f-14 d-block mobile-hidden">sittings</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="p-10 c-black rad-10 d-flex align-center" href="profile.html">
+                        <i class="fa-solid fa-address-card mr-10 f-14 fa-fw d-block"></i>
+                        <span class="f-14 d-block mobile-hidden">profile</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="p-10 c-black rad-10 d-flex align-center" href="projects.html">
+                        <i class="fa-solid fa-diagram-project mr-10 f-14 fa-fw d-block"></i>
+                        <span class=" f-14 d-block mobile-hidden">projects</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="p-10 c-black rad-10 d-flex align-center" href="courses.html">
+                        <i class="fa-solid fa-graduation-cap mr-10 f-14 fa-fw d-block"></i>
+                        <span class="f-14 d-block mobile-hidden">courses</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="p-10 c-black rad-10 d-flex align-center" href="friends.html">
+                        <i class="fa-solid fa-user-group mr-10 f-14 fa-fw d-block"></i>
+                        <span class="f-14 d-block mobile-hidden">friends</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="active p-10 c-black rad-10 d-flex align-center" href="files.html">
+                        <i class="fa-solid fa-file mr-10 f-14 fa-fw d-block"></i>
+                        <span class="f-14 d-block mobile-hidden">files</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="p-10 c-black rad-10 d-flex align-center" href="plans.html">
+                        <i class="fa-solid fa-credit-card mr-10 f-14 fa-fw d-block"></i>
+                        <span class="f-14 d-block mobile-hidden">plans</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- end sidebar -->
+        <!-- start content -->
+        <div class="content hidden">
+            <!-- start head -->
+            <div class="head bg-white flex-between">
+                <div class="search d-flex align-center rad-10 hidden">
+                    <i class="fa-solid fa-magnifying-glass d-inblock ml-10 c-gray"></i>
+                    <input class="d-inblock p-10 f-14" placeholder="type a keyword" type="search" name="" id="">
+                </div>
+                <div class="icons d-flex align-center">
+                    <div class="bell"><i class="fa-solid fa-bell"></i></div>
+                    <img src="images/avatar.png" alt="">
+                </div>
+            </div>
+            <!-- end head -->
+
+            <!-- start files page -->
+
+            <div class="files-page m-20">
+                <h1 class="mt-0 mb-30 w-fit p-rel pb-15">Files</h1>
+                <div class="files-cards d-flex">
+                    <div class="files">
+                        <div class="file bg-white rad-10 p-10 p-rel">
+                            <a class="download c-gray" href="#download"><i class="fa-solid fa-download"></i></a>
+                            <div class="image d-flex flex-column align-center pt-15">
+                                <img class="mb-20" src="images/pdf.svg" alt="">
+                                <span class="f-14">my-file.pdf</span>
+                            </div>
+                            <p class="f-13 c-gray pb-15 pt-15 mt-0 mb-0">Elzero</p>
+                            <div class="date flex-between f-13 c-gray">
+                                <span>20/06/2020</span>
+                                <span>5.5MB</span>
+                            </div>
+                        </div>
+                        <div class="file bg-white rad-10 p-10 p-rel">
+                            <a class="download c-gray" href="#download"><i class="fa-solid fa-download"></i></a>
+                            <div class="image d-flex flex-column align-center pt-15">
+                                <img class="mb-20" src="images/avi.svg" alt="">
+                                <span class="f-14">my-file.avi</span>
+                            </div>
+                            <p class="f-13 c-gray pb-15 pt-15 mt-0 mb-0">Elzero</p>
+                            <div class="date flex-between f-13 c-gray">
+                                <span>20/06/2020</span>
+                                <span>5.5MB</span>
+                            </div>
+                        </div>
+                        <div class="file bg-white rad-10 p-10 p-rel">
+                            <a class="download c-gray" href="#download"><i class="fa-solid fa-download"></i></a>
+                            <div class="image d-flex flex-column align-center pt-15">
+                                <img class="mb-20" src="images/txt.svg" alt="">
+                                <span class="f-14">my-file.txt</span>
+                            </div>
+                            <p class="f-13 c-gray pb-15 pt-15 mt-0 mb-0">Elzero</p>
+                            <div class="date flex-between f-13 c-gray">
+                                <span>20/06/2020</span>
+                                <span>5.5MB</span>
+                            </div>
+                        </div>
+                        <div class="file bg-white rad-10 p-10 p-rel">
+                            <a class="download c-gray" href="#download"><i class="fa-solid fa-download"></i></a>
+                            <div class="image d-flex flex-column align-center pt-15">
+                                <img class="mb-20" src="images/psd.svg" alt="">
+                                <span class="f-14">my-file.psd</span>
+                            </div>
+                            <p class="f-13 c-gray pb-15 pt-15 mt-0 mb-0">Elzero</p>
+                            <div class="date flex-between f-13 c-gray">
+                                <span>20/06/2020</span>
+                                <span>5.5MB</span>
+                            </div>
+                        </div>
+                        <div class="file bg-white rad-10 p-10 p-rel">
+                            <a class="download c-gray" href="#download"><i class="fa-solid fa-download"></i></a>
+                            <div class="image d-flex flex-column align-center pt-15">
+                                <img class="mb-20" src="images/eps.svg" alt="">
+                                <span class="f-14">my-file.eps</span>
+                            </div>
+                            <p class="f-13 c-gray pb-15 pt-15 mt-0 mb-0">Elzero</p>
+                            <div class="date flex-between f-13 c-gray">
+                                <span>20/06/2020</span>
+                                <span>5.5MB</span>
+                            </div>
+                        </div>
+                        <div class="file bg-white rad-10 p-10 p-rel">
+                            <a class="download c-gray" href="#download"><i class="fa-solid fa-download"></i></a>
+                            <div class="image d-flex flex-column align-center pt-15">
+                                <img class="mb-20" src="images/zip.svg" alt="">
+                                <span class="f-14">my-file.zip</span>
+                            </div>
+                            <p class="f-13 c-gray pb-15 pt-15 mt-0 mb-0">Elzero</p>
+                            <div class="date flex-between f-13 c-gray">
+                                <span>20/06/2020</span>
+                                <span>5.5MB</span>
+                            </div>
+                        </div>
+                        <div class="file bg-white rad-10 p-10 p-rel">
+                            <a class="download c-gray" href="#download"><i class="fa-solid fa-download"></i></a>
+                            <div class="image d-flex flex-column align-center pt-15">
+                                <img class="mb-20" src="images/sql.svg" alt="">
+                                <span class="f-14">my-file.sql</span>
+                            </div>
+                            <p class="f-13 c-gray pb-15 pt-15 mt-0 mb-0">Elzero</p>
+                            <div class="date flex-between f-13 c-gray">
+                                <span>20/06/2020</span>
+                                <span>5.5MB</span>
+                            </div>
+                        </div>
+                        <div class="file bg-white rad-10 p-10 p-rel">
+                            <a class="download c-gray" href="#download"><i class="fa-solid fa-download"></i></a>
+                            <div class="image d-flex flex-column align-center pt-15">
+                                <img class="mb-20" src="images/txt.svg" alt="">
+                                <span class="f-14">my-file.txt</span>
+                            </div>
+                            <p class="f-13 c-gray pb-15 pt-15 mt-0 mb-0">Elzero</p>
+                            <div class="date flex-between f-13 c-gray">
+                                <span>20/06/2020</span>
+                                <span>5.5MB</span>
+                            </div>
+                        </div>
+                        <div class="file bg-white rad-10 p-10 p-rel">
+                            <a class="download c-gray" href="#download"><i class="fa-solid fa-download"></i></a>
+                            <div class="image d-flex flex-column align-center pt-15">
+                                <img class="mb-20" src="images/pdf.svg" alt="">
+                                <span class="f-14">my-file.pdf</span>
+                            </div>
+                            <p class="f-13 c-gray pb-15 pt-15 mt-0 mb-0">Elzero</p>
+                            <div class="date flex-between f-13 c-gray">
+                                <span>20/06/2020</span>
+                                <span>5.5MB</span>
+                            </div>
+                        </div>
+                        <div class="file bg-white rad-10 p-10 p-rel">
+                            <a class="download c-gray" href="#download"><i class="fa-solid fa-download"></i></a>
+                            <div class="image d-flex flex-column align-center pt-15">
+                                <img class="mb-20" src="images/pdf.svg" alt="">
+                                <span class="f-14">my-file.pdf</span>
+                            </div>
+                            <p class="f-13 c-gray pb-15 pt-15 mt-0 mb-0">Elzero</p>
+                            <div class="date flex-between f-13 c-gray">
+                                <span>20/06/2020</span>
+                                <span>5.5MB</span>
+                            </div>
+                        </div>
+                        <div class="file bg-white rad-10 p-10 p-rel">
+                            <a class="download c-gray" href="#download"><i class="fa-solid fa-download"></i></a>
+                            <div class="image d-flex flex-column align-center pt-15">
+                                <img class="mb-20" src="images/eps.svg" alt="">
+                                <span class="f-14">my-file.eps</span>
+                            </div>
+                            <p class="f-13 c-gray pb-15 pt-15 mt-0 mb-0">Elzero</p>
+                            <div class="date flex-between f-13 c-gray">
+                                <span>20/06/2020</span>
+                                <span>5.5MB</span>
+                            </div>
+                        </div>
+                        <div class="file bg-white rad-10 p-10 p-rel">
+                            <a class="download c-gray" href="#download"><i class="fa-solid fa-download"></i></a>
+                            <div class="image d-flex flex-column align-center pt-15">
+                                <img class="mb-20" src="images/pdf.svg" alt="">
+                                <span class="f-14">my-file.pdf</span>
+                            </div>
+                            <p class="f-13 c-gray pb-15 pt-15 mt-0 mb-0">Elzero</p>
+                            <div class="date flex-between f-13 c-gray">
+                                <span>20/06/2020</span>
+                                <span>5.5MB</span>
+                            </div>
+                        </div>
+                        <div class="file bg-white rad-10 p-10 p-rel">
+                            <a class="download c-gray" href="#download"><i class="fa-solid fa-download"></i></a>
+                            <div class="image d-flex flex-column align-center pt-15">
+                                <img class="mb-20" src="images/zip.svg" alt="">
+                                <span class="f-14">my-file.zip</span>
+                            </div>
+                            <p class="f-13 c-gray pb-15 pt-15 mt-0 mb-0">Elzero</p>
+                            <div class="date flex-between f-13 c-gray">
+                                <span>20/06/2020</span>
+                                <span>5.5MB</span>
+                            </div>
+                        </div>
+                        <div class="file bg-white rad-10 p-10 p-rel">
+                            <a class="download c-gray" href="#download"><i class="fa-solid fa-download"></i></a>
+                            <div class="image d-flex flex-column align-center pt-15">
+                                <img class="mb-20" src="images/avi.svg" alt="">
+                                <span class="f-14">my-file.avi</span>
+                            </div>
+                            <p class="f-13 c-gray pb-15 pt-15 mt-0 mb-0">Elzero</p>
+                            <div class="date flex-between f-13 c-gray">
+                                <span>20/06/2020</span>
+                                <span>5.5MB</span>
+                            </div>
+                        </div>
+                        <div class="file bg-white rad-10 p-10 p-rel">
+                            <a class="download c-gray" href="#download"><i class="fa-solid fa-download"></i></a>
+                            <div class="image d-flex flex-column align-center pt-15">
+                                <img class="mb-20" src="images/txt.svg" alt="">
+                                <span class="f-14">my-file.txt</span>
+                            </div>
+                            <p class="f-13 c-gray pb-15 pt-15 mt-0 mb-0">Elzero</p>
+                            <div class="date flex-between f-13 c-gray">
+                                <span>20/06/2020</span>
+                                <span>5.5MB</span>
+                            </div>
+                        </div>
+                        <div class="file bg-white rad-10 p-10 p-rel">
+                            <a class="download c-gray" href="#download"><i class="fa-solid fa-download"></i></a>
+                            <div class="image d-flex flex-column align-center pt-15">
+                                <img class="mb-20" src="images/avi.svg" alt="">
+                                <span class="f-14">my-file.avi</span>
+                            </div>
+                            <p class="f-13 c-gray pb-15 pt-15 mt-0 mb-0">Elzero</p>
+                            <div class="date flex-between f-13 c-gray">
+                                <span>20/06/2020</span>
+                                <span>5.5MB</span>
+                            </div>
+                        </div>
+                        <div class="file bg-white rad-10 p-10 p-rel">
+                            <a class="download c-gray" href="#download"><i class="fa-solid fa-download"></i></a>
+                            <div class="image d-flex flex-column align-center pt-15">
+                                <img class="mb-20" src="images/sql.svg" alt="">
+                                <span class="f-14">my-file.sql</span>
+                            </div>
+                            <p class="f-13 c-gray pb-15 pt-15 mt-0 mb-0">Elzero</p>
+                            <div class="date flex-between f-13 c-gray">
+                                <span>20/06/2020</span>
+                                <span>5.5MB</span>
+                            </div>
+                        </div>
+                        <div class="file bg-white rad-10 p-10 p-rel">
+                            <a class="download c-gray" href="#download"><i class="fa-solid fa-download"></i></a>
+                            <div class="image d-flex flex-column align-center pt-15">
+                                <img class="mb-20" src="images/eps.svg" alt="">
+                                <span class="f-14">my-file.eps</span>
+                            </div>
+                            <p class="f-13 c-gray pb-15 pt-15 mt-0 mb-0">Elzero</p>
+                            <div class="date flex-between f-13 c-gray">
+                                <span>20/06/2020</span>
+                                <span>5.5MB</span>
+                            </div>
+                        </div>
+                        <div class="file bg-white rad-10 p-10 p-rel">
+                            <a class="download c-gray" href="#download"><i class="fa-solid fa-download"></i></a>
+                            <div class="image d-flex flex-column align-center pt-15">
+                                <img class="mb-20" src="images/eps.svg" alt="">
+                                <span class="f-14">my-file.eps</span>
+                            </div>
+                            <p class="f-13 c-gray pb-15 pt-15 mt-0 mb-0">Elzero</p>
+                            <div class="date flex-between f-13 c-gray">
+                                <span>20/06/2020</span>
+                                <span>5.5MB</span>
+                            </div>
+                        </div>
+                        <div class="file bg-white rad-10 p-10 p-rel">
+                            <a class="download c-gray" href="#download"><i class="fa-solid fa-download"></i></a>
+                            <div class="image d-flex flex-column align-center pt-15">
+                                <img class="mb-20" src="images/zip.svg" alt="">
+                                <span class="f-14">my-file.zip</span>
+                            </div>
+                            <p class="f-13 c-gray pb-15 pt-15 mt-0 mb-0">Elzero</p>
+                            <div class="date flex-between f-13 c-gray">
+                                <span>20/06/2020</span>
+                                <span>5.5MB</span>
+                            </div>
+                        </div>
+                        <div class="file bg-white rad-10 p-10 p-rel">
+                            <a class="download c-gray" href="#download"><i class="fa-solid fa-download"></i></a>
+                            <div class="image d-flex flex-column align-center pt-15">
+                                <img class="mb-20" src="images/zip.svg" alt="">
+                                <span class="f-14">my-file.zip</span>
+                            </div>
+                            <p class="f-13 c-gray pb-15 pt-15 mt-0 mb-0">Elzero</p>
+                            <div class="date flex-between f-13 c-gray">
+                                <span>20/06/2020</span>
+                                <span>5.5MB</span>
+                            </div>
+                        </div>
+                        <div class="file bg-white rad-10 p-10 p-rel">
+                            <a class="download c-gray" href="#download"><i class="fa-solid fa-download"></i></a>
+                            <div class="image d-flex flex-column align-center pt-15">
+                                <img class="mb-20" src="images/avi.svg" alt="">
+                                <span class="f-14">my-file.avi</span>
+                            </div>
+                            <p class="f-13 c-gray pb-15 pt-15 mt-0 mb-0">Elzero</p>
+                            <div class="date flex-between f-13 c-gray">
+                                <span>20/06/2020</span>
+                                <span>5.5MB</span>
+                            </div>
+                        </div>
+                        <div class="file bg-white rad-10 p-10 p-rel">
+                            <a class="download c-gray" href="#download"><i class="fa-solid fa-download"></i></a>
+                            <div class="image d-flex flex-column align-center pt-15">
+                                <img class="mb-20" src="images/txt.svg" alt="">
+                                <span class="f-14">my-file.txt</span>
+                            </div>
+                            <p class="f-13 c-gray pb-15 pt-15 mt-0 mb-0">Elzero</p>
+                            <div class="date flex-between f-13 c-gray">
+                                <span>20/06/2020</span>
+                                <span>5.5MB</span>
+                            </div>
+                        </div>
+                        <div class="file bg-white rad-10 p-10 p-rel">
+                            <a class="download c-gray" href="#download"><i class="fa-solid fa-download"></i></a>
+                            <div class="image d-flex flex-column align-center pt-15">
+                                <img class="mb-20" src="images/avi.svg" alt="">
+                                <span class="f-14">my-file.avi</span>
+                            </div>
+                            <p class="f-13 c-gray pb-15 pt-15 mt-0 mb-0">Elzero</p>
+                            <div class="date flex-between f-13 c-gray">
+                                <span>20/06/2020</span>
+                                <span>5.5MB</span>
+                            </div>
+                        </div>
+                        <div class="file bg-white rad-10 p-10 p-rel">
+                            <a class="download c-gray" href="#download"><i class="fa-solid fa-download"></i></a>
+                            <div class="image d-flex flex-column align-center pt-15">
+                                <img class="mb-20" src="images/sql.svg" alt="">
+                                <span class="f-14">my-file.sql</span>
+                            </div>
+                            <p class="f-13 c-gray pb-15 pt-15 mt-0 mb-0">Elzero</p>
+                            <div class="date flex-between f-13 c-gray">
+                                <span>20/06/2020</span>
+                                <span>5.5MB</span>
+                            </div>
+                        </div>
+                        <div class="file bg-white rad-10 p-10 p-rel">
+                            <a class="download c-gray" href="#download"><i class="fa-solid fa-download"></i></a>
+                            <div class="image d-flex flex-column align-center pt-15">
+                                <img class="mb-20" src="images/zip.svg" alt="">
+                                <span class="f-14">my-file.zip</span>
+                            </div>
+                            <p class="f-13 c-gray pb-15 pt-15 mt-0 mb-0">Elzero</p>
+                            <div class="date flex-between f-13 c-gray">
+                                <span>20/06/2020</span>
+                                <span>5.5MB</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="files-statistics bg-white rad-10 p-20">
+                        <h2 class="mt-0 mb-20 mobile-text-c">Files Statistics</h2>
+                        <div class="box blue mb-15 p-10 p-rel d-flex align-center rad-7">
+                            <div class="byte c-gray f-14">5.4GB</div>
+                            <div class="icon flex-center mr-10">
+                                <i class="fa-solid fa-file-pdf"></i>
+                            </div>
+                            <div class="text f-13">
+                                <p class="mt-0 mb-5">PDF Files</p>
+                                <span class="c-gray">250</span>
+                            </div>
+                        </div>
+                        <div class="box green mb-15 p-10 p-rel d-flex align-center rad-7">
+                            <div class="byte c-gray f-14">5.4GB</div>
+                            <div class="icon flex-center mr-10">
+                                <i class="fa-solid fa-images"></i>
+                            </div>
+                            <div class="text f-13">
+                                <p class="mt-0 mb-5">IMAGES Files</p>
+                                <span class="c-gray">250</span>
+                            </div>
+                        </div>
+                        <div class="box red mb-15 p-10 p-rel d-flex align-center rad-7">
+                            <div class="byte c-gray f-14">5.4GB</div>
+                            <div class="icon flex-center mr-10">
+                                <i class="fa-solid fa-file-word"></i>
+                            </div>
+                            <div class="text f-13">
+                                <p class="mt-0 mb-5">WORD Files</p>
+                                <span class="c-gray">250</span>
+                            </div>
+                        </div>
+                        <div class="box orange mb-15 p-10 p-rel d-flex align-center rad-7">
+                            <div class="byte c-gray f-14">5.4GB</div>
+                            <div class="icon flex-center mr-10">
+                                <i class="fa-solid fa-file-csv"></i>
+                            </div>
+                            <div class="text f-13">
+                                <p class="mt-0 mb-5">CSV Files</p>
+                                <span class="c-gray">250</span>
+                            </div>
+                        </div>
+                        <a class="upload c-white flex-center m-auto f-14 rad-7" href="">
+                            <i class="fa-solid fa-angles-up d-inblock mr-10"></i>
+                            <span>Upload</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- end files page -->
+
+        </div>
+        <!-- end content -->
+    </div>
+    <!-- end page -->
+</body>
+
+</html>

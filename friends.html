@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friends-my</title>
+    <!-- fontawesom file -->
+    <link rel="stylesheet" href="cssFiles/all.min.css">
+    <!-- normalize file -->
+    <link rel="stylesheet" href="cssFiles/normalize.css">
+    <!-- framework file -->
+    <link rel="stylesheet" href="cssFiles/framework.css">
+    <!-- main css file -->
+    <link rel="stylesheet" href="cssFiles/cssMain.css">
+    <!-- font links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cairo:slnt,wght@-11..11,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- start page -->
+    <div class="page d-flex">
+        <!-- start sidebar -->
+        <div class="sidebar bg-white p-20 p-rel">
+            <h3 class="m-auto f-bold mt-0 p-rel">elzero</h3>
+            <ul>
+                <li>
+                    <a class="p-10 c-black rad-10 d-flex align-center" href="index.html">
+                        <i class="fa-solid fa-house mr-10 f-14 fa-fw d-block"></i>
+                        <span class="f-14 d-block mobile-hidden">dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="p-10 c-black rad-10 d-flex align-center" href="sittings.html">
+                        <i class="fa-solid fa-gear mr-10 f-14 fa-fw d-block"></i>
+                        <span class="f-14 d-block mobile-hidden">sittings</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="p-10 c-black rad-10 d-flex align-center" href="profile.html">
+                        <i class="fa-solid fa-address-card mr-10 f-14 fa-fw d-block"></i>
+                        <span class="f-14 d-block mobile-hidden">profile</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="p-10 c-black rad-10 d-flex align-center" href="projects.html">
+                        <i class="fa-solid fa-diagram-project mr-10 f-14 fa-fw d-block"></i>
+                        <span class=" f-14 d-block mobile-hidden">projects</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="p-10 c-black rad-10 d-flex align-center" href="courses.html">
+                        <i class="fa-solid fa-graduation-cap mr-10 f-14 fa-fw d-block"></i>
+                        <span class="f-14 d-block mobile-hidden">courses</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="active p-10 c-black rad-10 d-flex align-center" href="friends.html">
+                        <i class="fa-solid fa-user-group mr-10 f-14 fa-fw d-block"></i>
+                        <span class="f-14 d-block mobile-hidden">friends</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="p-10 c-black rad-10 d-flex align-center" href="files.html">
+                        <i class="fa-solid fa-file mr-10 f-14 fa-fw d-block"></i>
+                        <span class="f-14 d-block mobile-hidden">files</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="p-10 c-black rad-10 d-flex align-center" href="plans.html">
+                        <i class="fa-solid fa-credit-card mr-10 f-14 fa-fw d-block"></i>
+                        <span class="f-14 d-block mobile-hidden">plans</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- end sidebar -->
+        <!-- start content -->
+        <div class="content hidden">
+            <!-- start head -->
+            <div class="head bg-white flex-between">
+                <div class="search d-flex align-center rad-10 hidden">
+                    <i class="fa-solid fa-magnifying-glass d-inblock ml-10 c-gray"></i>
+                    <input class="d-inblock p-10 f-14" placeholder="type a keyword" type="search" name="" id="">
+                </div>
+                <div class="icons d-flex align-center">
+                    <div class="bell"><i class="fa-solid fa-bell"></i></div>
+                    <img src="images/avatar.png" alt="">
+                </div>
+            </div>
+            <!-- end head -->
+
+            <!-- start friends page -->
+            <div class="friends-page m-20">
+                <h1 class="p-rel w-fit pb-15 mt-0 mb-30">Friends</h1>
+                <!-- start friends cards -->
+                <div class="friends-cards">
+                    <div class="card p-rel bg-white rad-7 p-20">
+                        <div class="call d-flex align-center">
+                            <a class="d-inblock c-gray mr-5" href="#"><i class="fa-solid fa-phone"></i></a>
+                            <a class="d-inblock c-gray" href="#"><i class="fa-regular fa-envelope"></i></a>
+                        </div>
+                        <div class="image d-flex flex-column align-center mb-20 mt-20">
+                            <img class="d-inblock" src="images/friend-01.jpg" alt="">
+                            <h4 class="mt-20 mb-5">Ahmed Nasser</h4>
+                            <p class="f-14 c-gray mt-0 mb-0">JavaScript Developer</p>
+                        </div>
+                        <div class="list pt-15 pb-15 p-rel">
+                            <div class="vip">VIP</div>
+                            <div class="item d-flex align-center mb-15 f-14">
+                                <i class="fa-regular fa-face-smile"></i>
+                                <span class="number d-inblock ml-10 mr-5">20</span>
+                                <span class="d-inblock">Friend</span>
+                            </div>
+                            <div class="item d-flex align-center mb-15 f-14">
+                                <i class="fa-solid fa-qrcode"></i>
+                                <span class="number d-inblock ml-10 mr-5">40</span>
+                                <span class="d-inblock">Projects</span>
+                            </div>
+                            <div class="item d-flex align-center f-14">
+                                <i class="fa-regular fa-newspaper"></i>
+                                <span class="number d-inblock ml-10 mr-5">90</span>
+                                <span class="d-inblock">Articles</span>
+                            </div>
+                        </div>
+                        <div class="date mt-15 flex-between">
+                            <div class="text c-gray f-13">
+                                <span class="d-inblock">Joined</span>
+                                <span class="d-inblock">02/10/2021</span>
+                            </div>
+                            <div class="button d-flex align-center">
+                                <a class="d-inblock button-shape f-13" href="profile.html">Profile</a>
+                                <a class="d-inblock button-shape f-13" href="#remove">Remove</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card p-rel bg-white rad-7 p-20">
+                        <div class="call d-flex align-center">
+                            <a class="d-inblock c-gray mr-5" href="#"><i class="fa-solid fa-phone"></i></a>
+                            <a class="d-inblock c-gray" href="#"><i class="fa-regular fa-envelope"></i></a>
+                        </div>
+                        <div class="image d-flex flex-column align-center mb-20 mt-20">
+                            <img class="d-inblock" src="images/friend-02.jpg" alt="">
+                            <h4 class="mt-20 mb-5">Omar Fathy</h4>
+                            <p class="f-14 c-gray mt-0 mb-0">Cloud Developer</p>
+                        </div>
+                        <div class="list pt-15 pb-15 p-rel">
+                            <div class="item d-flex align-center mb-15 f-14">
+                                <i class="fa-regular fa-face-smile"></i>
+                                <span class="number d-inblock ml-10 mr-5">20</span>
+                                <span class="d-inblock">Friend</span>
+                            </div>
+                            <div class="item d-flex align-center mb-15 f-14">
+                                <i class="fa-solid fa-qrcode"></i>
+                                <span class="number d-inblock ml-10 mr-5">40</span>
+                                <span class="d-inblock">Projects</span>
+                            </div>
+                            <div class="item d-flex align-center f-14">
+                                <i class="fa-regular fa-newspaper"></i>
+                                <span class="number d-inblock ml-10 mr-5">90</span>
+                                <span class="d-inblock">Articles</span>
+                            </div>
+                        </div>
+                        <div class="date mt-15 flex-between">
+                            <div class="text c-gray f-13">
+                                <span class="d-inblock">Joined</span>
+                                <span class="d-inblock">14/03/2019</span>
+                            </div>
+                            <div class="button d-flex align-center">
+                                <a class="d-inblock button-shape f-13" href="profile.html">Profile</a>
+                                <a class="d-inblock button-shape f-13" href="#remove">Remove</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card p-rel bg-white rad-7 p-20">
+                        <div class="call d-flex align-center">
+                            <a class="d-inblock c-gray mr-5" href="#"><i class="fa-solid fa-phone"></i></a>
+                            <a class="d-inblock c-gray" href="#"><i class="fa-regular fa-envelope"></i></a>
+                        </div>
+                        <div class="image d-flex flex-column align-center mb-20 mt-20">
+                            <img class="d-inblock" src="images/friend-03.jpg" alt="">
+                            <h4 class="mt-20 mb-5">Omar Ahmed</h4>
+                            <p class="f-14 c-gray mt-0 mb-0">Mobile Developer</p>
+                        </div>
+                        <div class="list pt-15 pb-15 p-rel">
+                            <div class="item d-flex align-center mb-15 f-14">
+                                <i class="fa-regular fa-face-smile"></i>
+                                <span class="number d-inblock ml-10 mr-5">20</span>
+                                <span class="d-inblock">Friend</span>
+                            </div>
+                            <div class="item d-flex align-center mb-15 f-14">
+                                <i class="fa-solid fa-qrcode"></i>
+                                <span class="number d-inblock ml-10 mr-5">40</span>
+                                <span class="d-inblock">Projects</span>
+                            </div>
+                            <div class="item d-flex align-center f-14">
+                                <i class="fa-regular fa-newspaper"></i>
+                                <span class="number d-inblock ml-10 mr-5">90</span>
+                                <span class="d-inblock">Articles</span>
+                            </div>
+                        </div>
+                        <div class="date mt-15 flex-between">
+                            <div class="text c-gray f-13">
+                                <span class="d-inblock">Joined</span>
+                                <span class="d-inblock">04/03/2020</span>
+                            </div>
+                            <div class="button d-flex align-center">
+                                <a class="d-inblock button-shape f-13" href="profile.html">Profile</a>
+                                <a class="d-inblock button-shape f-13" href="#remove">Remove</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card p-rel bg-white rad-7 p-20">
+                        <div class="call d-flex align-center">
+                            <a class="d-inblock c-gray mr-5" href="#"><i class="fa-solid fa-phone"></i></a>
+                            <a class="d-inblock c-gray" href="#"><i class="fa-regular fa-envelope"></i></a>
+                        </div>
+                        <div class="image d-flex flex-column align-center mb-20 mt-20">
+                            <img class="d-inblock" src="images/friend-04.jpg" alt="">
+                            <h4 class="mt-20 mb-5">Shady Nabil</h4>
+                            <p class="f-14 c-gray mt-0 mb-0">Back-End Developer</p>
+                        </div>
+                        <div class="list pt-15 pb-15 p-rel">
+                            <div class="vip">VIP</div>
+                            <div class="item d-flex align-center mb-15 f-14">
+                                <i class="fa-regular fa-face-smile"></i>
+                                <span class="number d-inblock ml-10 mr-5">33</span>
+                                <span class="d-inblock">Friend</span>
+                            </div>
+                            <div class="item d-flex align-center mb-15 f-14">
+                                <i class="fa-solid fa-qrcode"></i>
+                                <span class="number d-inblock ml-10 mr-5">66</span>
+                                <span class="d-inblock">Projects</span>
+                            </div>
+                            <div class="item d-flex align-center f-14">
+                                <i class="fa-regular fa-newspaper"></i>
+                                <span class="number d-inblock ml-10 mr-5">12</span>
+                                <span class="d-inblock">Articles</span>
+                            </div>
+                        </div>
+                        <div class="date mt-15 flex-between">
+                            <div class="text c-gray f-13">
+                                <span class="d-inblock">Joined</span>
+                                <span class="d-inblock">10/09/2022</span>
+                            </div>
+                            <div class="button d-flex align-center">
+                                <a class="d-inblock button-shape f-13" href="profile.html">Profile</a>
+                                <a class="d-inblock button-shape f-13" href="#remove">Remove</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card p-rel bg-white rad-7 p-20">
+                        <div class="call d-flex align-center">
+                            <a class="d-inblock c-gray mr-5" href="#"><i class="fa-solid fa-phone"></i></a>
+                            <a class="d-inblock c-gray" href="#"><i class="fa-regular fa-envelope"></i></a>
+                        </div>
+                        <div class="image d-flex flex-column align-center mb-20 mt-20">
+                            <img class="d-inblock" src="images/friend-05.jpg" alt="">
+                            <h4 class="mt-20 mb-5">Mohamed Ibrahim</h4>
+                            <p class="f-14 c-gray mt-0 mb-0">Algorithm Developer</p>
+                        </div>
+                        <div class="list pt-15 pb-15 p-rel">
+                            <div class="item d-flex align-center mb-15 f-14">
+                                <i class="fa-regular fa-face-smile"></i>
+                                <span class="number d-inblock ml-10 mr-5">20</span>
+                                <span class="d-inblock">Friend</span>
+                            </div>
+                            <div class="item d-flex align-center mb-15 f-14">
+                                <i class="fa-solid fa-qrcode"></i>
+                                <span class="number d-inblock ml-10 mr-5">40</span>
+                                <span class="d-inblock">Projects</span>
+                            </div>
+                            <div class="item d-flex align-center f-14">
+                                <i class="fa-regular fa-newspaper"></i>
+                                <span class="number d-inblock ml-10 mr-5">90</span>
+                                <span class="d-inblock">Articles</span>
+                            </div>
+                        </div>
+                        <div class="date mt-15 flex-between">
+                            <div class="text c-gray f-13">
+                                <span class="d-inblock">Joined</span>
+                                <span class="d-inblock">02/10/2021</span>
+                            </div>
+                            <div class="button d-flex align-center">
+                                <a class="d-inblock button-shape f-13" href="profile.html">Profile</a>
+                                <a class="d-inblock button-shape f-13" href="#remove">Remove</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card p-rel bg-white rad-7 p-20">
+                        <div class="call d-flex align-center">
+                            <a class="d-inblock c-gray mr-5" href="#"><i class="fa-solid fa-phone"></i></a>
+                            <a class="d-inblock c-gray" href="#"><i class="fa-regular fa-envelope"></i></a>
+                        </div>
+                        <div class="image d-flex flex-column align-center mb-20 mt-20">
+                            <img class="d-inblock" src="images/friend-03.jpg" alt="">
+                            <h4 class="mt-20 mb-5">Amr Hendawy</h4>
+                            <p class="f-14 c-gray mt-0 mb-0">Cloud Developer</p>
+                        </div>
+                        <div class="list pt-15 pb-15 p-rel">
+                            <div class="item d-flex align-center mb-15 f-14">
+                                <i class="fa-regular fa-face-smile"></i>
+                                <span class="number d-inblock ml-10 mr-5">20</span>
+                                <span class="d-inblock">Friend</span>
+                            </div>
+                            <div class="item d-flex align-center mb-15 f-14">
+                                <i class="fa-solid fa-qrcode"></i>
+                                <span class="number d-inblock ml-10 mr-5">40</span>
+                                <span class="d-inblock">Projects</span>
+                            </div>
+                            <div class="item d-flex align-center f-14">
+                                <i class="fa-regular fa-newspaper"></i>
+                                <span class="number d-inblock ml-10 mr-5">90</span>
+                                <span class="d-inblock">Articles</span>
+                            </div>
+                        </div>
+                        <div class="date mt-15 flex-between">
+                            <div class="text c-gray f-13">
+                                <span class="d-inblock">Joined</span>
+                                <span class="d-inblock">02/10/2021</span>
+                            </div>
+                            <div class="button d-flex align-center">
+                                <a class="d-inblock button-shape f-13" href="profile.html">Profile</a>
+                                <a class="d-inblock button-shape f-13" href="#remove">Remove</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card p-rel bg-white rad-7 p-20">
+                        <div class="call d-flex align-center">
+                            <a class="d-inblock c-gray mr-5" href="#"><i class="fa-solid fa-phone"></i></a>
+                            <a class="d-inblock c-gray" href="#"><i class="fa-regular fa-envelope"></i></a>
+                        </div>
+                        <div class="image d-flex flex-column align-center mb-20 mt-20">
+                            <img class="d-inblock" src="images/friend-05.jpg" alt="">
+                            <h4 class="mt-20 mb-5">Ahmed Abuzaid</h4>
+                            <p class="f-14 c-gray mt-0 mb-0">Content Creator</p>
+                        </div>
+                        <div class="list pt-15 pb-15 p-rel">
+                            <div class="vip">VIP</div>
+                            <div class="item d-flex align-center mb-15 f-14">
+                                <i class="fa-regular fa-face-smile"></i>
+                                <span class="number d-inblock ml-10 mr-5">20</span>
+                                <span class="d-inblock">Friend</span>
+                            </div>
+                            <div class="item d-flex align-center mb-15 f-14">
+                                <i class="fa-solid fa-qrcode"></i>
+                                <span class="number d-inblock ml-10 mr-5">40</span>
+                                <span class="d-inblock">Projects</span>
+                            </div>
+                            <div class="item d-flex align-center f-14">
+                                <i class="fa-regular fa-newspaper"></i>
+                                <span class="number d-inblock ml-10 mr-5">90</span>
+                                <span class="d-inblock">Articles</span>
+                            </div>
+                        </div>
+                        <div class="date mt-15 flex-between">
+                            <div class="text c-gray f-13">
+                                <span class="d-inblock">Joined</span>
+                                <span class="d-inblock">02/10/2021</span>
+                            </div>
+                            <div class="button d-flex align-center">
+                                <a class="d-inblock button-shape f-13" href="profile.html">Profile</a>
+                                <a class="d-inblock button-shape f-13" href="#remove">Remove</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card p-rel bg-white rad-7 p-20">
+                        <div class="call d-flex align-center">
+                            <a class="d-inblock c-gray mr-5" href="#"><i class="fa-solid fa-phone"></i></a>
+                            <a class="d-inblock c-gray" href="#"><i class="fa-regular fa-envelope"></i></a>
+                        </div>
+                        <div class="image d-flex flex-column align-center mb-20 mt-20">
+                            <img class="d-inblock" src="images/friend-02.jpg" alt="">
+                            <h4 class="mt-20 mb-5">Gareeb Elshiekh</h4>
+                            <p class="f-14 c-gray mt-0 mb-0">JavaScript Developer</p>
+                        </div>
+                        <div class="list pt-15 pb-15 p-rel">
+                            <div class="vip">VIP</div>
+                            <div class="item d-flex align-center mb-15 f-14">
+                                <i class="fa-regular fa-face-smile"></i>
+                                <span class="number d-inblock ml-10 mr-5">20</span>
+                                <span class="d-inblock">Friend</span>
+                            </div>
+                            <div class="item d-flex align-center mb-15 f-14">
+                                <i class="fa-solid fa-qrcode"></i>
+                                <span class="number d-inblock ml-10 mr-5">40</span>
+                                <span class="d-inblock">Projects</span>
+                            </div>
+                            <div class="item d-flex align-center f-14">
+                                <i class="fa-regular fa-newspaper"></i>
+                                <span class="number d-inblock ml-10 mr-5">90</span>
+                                <span class="d-inblock">Articles</span>
+                            </div>
+                        </div>
+                        <div class="date mt-15 flex-between">
+                            <div class="text c-gray f-13">
+                                <span class="d-inblock">Joined</span>
+                                <span class="d-inblock">02/10/2021</span>
+                            </div>
+                            <div class="button d-flex align-center">
+                                <a class="d-inblock button-shape f-13" href="profile.html">Profile</a>
+                                <a class="d-inblock button-shape f-13" href="#remove">Remove</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card p-rel bg-white rad-7 p-20">
+                        <div class="call d-flex align-center">
+                            <a class="d-inblock c-gray mr-5" href="#"><i class="fa-solid fa-phone"></i></a>
+                            <a class="d-inblock c-gray" href="#"><i class="fa-regular fa-envelope"></i></a>
+                        </div>
+                        <div class="image d-flex flex-column align-center mb-20 mt-20">
+                            <img class="d-inblock" src="images/friend-03.jpg" alt="">
+                            <h4 class="mt-20 mb-5">Ahmed Nasser</h4>
+                            <p class="f-14 c-gray mt-0 mb-0">JavaScript Developer</p>
+                        </div>
+                        <div class="list pt-15 pb-15 p-rel">
+                            <div class="item d-flex align-center mb-15 f-14">
+                                <i class="fa-regular fa-face-smile"></i>
+                                <span class="number d-inblock ml-10 mr-5">20</span>
+                                <span class="d-inblock">Friend</span>
+                            </div>
+                            <div class="item d-flex align-center mb-15 f-14">
+                                <i class="fa-solid fa-qrcode"></i>
+                                <span class="number d-inblock ml-10 mr-5">40</span>
+                                <span class="d-inblock">Projects</span>
+                            </div>
+                            <div class="item d-flex align-center f-14">
+                                <i class="fa-regular fa-newspaper"></i>
+                                <span class="number d-inblock ml-10 mr-5">90</span>
+                                <span class="d-inblock">Articles</span>
+                            </div>
+                        </div>
+                        <div class="date mt-15 flex-between">
+                            <div class="text c-gray f-13">
+                                <span class="d-inblock">Joined</span>
+                                <span class="d-inblock">02/10/2021</span>
+                            </div>
+                            <div class="button d-flex align-center">
+                                <a class="d-inblock button-shape f-13" href="profile.html">Profile</a>
+                                <a class="d-inblock button-shape f-13" href="#remove">Remove</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card p-rel bg-white rad-7 p-20">
+                        <div class="call d-flex align-center">
+                            <a class="d-inblock c-gray mr-5" href="#"><i class="fa-solid fa-phone"></i></a>
+                            <a class="d-inblock c-gray" href="#"><i class="fa-regular fa-envelope"></i></a>
+                        </div>
+                        <div class="image d-flex flex-column align-center mb-20 mt-20">
+                            <img class="d-inblock" src="images/friend-02.jpg" alt="">
+                            <h4 class="mt-20 mb-5">Ahmed Nasser</h4>
+                            <p class="f-14 c-gray mt-0 mb-0">JavaScript Developer</p>
+                        </div>
+                        <div class="list pt-15 pb-15 p-rel">
+                            <div class="item d-flex align-center mb-15 f-14">
+                                <i class="fa-regular fa-face-smile"></i>
+                                <span class="number d-inblock ml-10 mr-5">20</span>
+                                <span class="d-inblock">Friend</span>
+                            </div>
+                            <div class="item d-flex align-center mb-15 f-14">
+                                <i class="fa-solid fa-qrcode"></i>
+                                <span class="number d-inblock ml-10 mr-5">40</span>
+                                <span class="d-inblock">Projects</span>
+                            </div>
+                            <div class="item d-flex align-center f-14">
+                                <i class="fa-regular fa-newspaper"></i>
+                                <span class="number d-inblock ml-10 mr-5">90</span>
+                                <span class="d-inblock">Articles</span>
+                            </div>
+                        </div>
+                        <div class="date mt-15 flex-between">
+                            <div class="text c-gray f-13">
+                                <span class="d-inblock">Joined</span>
+                                <span class="d-inblock">02/10/2021</span>
+                            </div>
+                            <div class="button d-flex align-center">
+                                <a class="d-inblock button-shape f-13" href="profile.html">Profile</a>
+                                <a class="d-inblock button-shape f-13" href="#remove">Remove</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card p-rel bg-white rad-7 p-20">
+                        <div class="call d-flex align-center">
+                            <a class="d-inblock c-gray mr-5" href="#"><i class="fa-solid fa-phone"></i></a>
+                            <a class="d-inblock c-gray" href="#"><i class="fa-regular fa-envelope"></i></a>
+                        </div>
+                        <div class="image d-flex flex-column align-center mb-20 mt-20">
+                            <img class="d-inblock" src="images/friend-01.jpg" alt="">
+                            <h4 class="mt-20 mb-5">Ahmed Nasser</h4>
+                            <p class="f-14 c-gray mt-0 mb-0">JavaScript Developer</p>
+                        </div>
+                        <div class="list pt-15 pb-15 p-rel">
+                            <div class="item d-flex align-center mb-15 f-14">
+                                <i class="fa-regular fa-face-smile"></i>
+                                <span class="number d-inblock ml-10 mr-5">20</span>
+                                <span class="d-inblock">Friend</span>
+                            </div>
+                            <div class="item d-flex align-center mb-15 f-14">
+                                <i class="fa-solid fa-qrcode"></i>
+                                <span class="number d-inblock ml-10 mr-5">40</span>
+                                <span class="d-inblock">Projects</span>
+                            </div>
+                            <div class="item d-flex align-center f-14">
+                                <i class="fa-regular fa-newspaper"></i>
+                                <span class="number d-inblock ml-10 mr-5">90</span>
+                                <span class="d-inblock">Articles</span>
+                            </div>
+                        </div>
+                        <div class="date mt-15 flex-between">
+                            <div class="text c-gray f-13">
+                                <span class="d-inblock">Joined</span>
+                                <span class="d-inblock">02/10/2021</span>
+                            </div>
+                            <div class="button d-flex align-center">
+                                <a class="d-inblock button-shape f-13" href="profile.html">Profile</a>
+                                <a class="d-inblock button-shape f-13" href="#remove">Remove</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card p-rel bg-white rad-7 p-20">
+                        <div class="call d-flex align-center">
+                            <a class="d-inblock c-gray mr-5" href="#"><i class="fa-solid fa-phone"></i></a>
+                            <a class="d-inblock c-gray" href="#"><i class="fa-regular fa-envelope"></i></a>
+                        </div>
+                        <div class="image d-flex flex-column align-center mb-20 mt-20">
+                            <img class="d-inblock" src="images/friend-03.jpg" alt="">
+                            <h4 class="mt-20 mb-5">Ahmed Nasser</h4>
+                            <p class="f-14 c-gray mt-0 mb-0">JavaScript Developer</p>
+                        </div>
+                        <div class="list pt-15 pb-15 p-rel">
+                            <div class="vip">VIP</div>
+                            <div class="item d-flex align-center mb-15 f-14">
+                                <i class="fa-regular fa-face-smile"></i>
+                                <span class="number d-inblock ml-10 mr-5">20</span>
+                                <span class="d-inblock">Friend</span>
+                            </div>
+                            <div class="item d-flex align-center mb-15 f-14">
+                                <i class="fa-solid fa-qrcode"></i>
+                                <span class="number d-inblock ml-10 mr-5">40</span>
+                                <span class="d-inblock">Projects</span>
+                            </div>
+                            <div class="item d-flex align-center f-14">
+                                <i class="fa-regular fa-newspaper"></i>
+                                <span class="number d-inblock ml-10 mr-5">90</span>
+                                <span class="d-inblock">Articles</span>
+                            </div>
+                        </div>
+                        <div class="date mt-15 flex-between">
+                            <div class="text c-gray f-13">
+                                <span class="d-inblock">Joined</span>
+                                <span class="d-inblock">02/10/2021</span>
+                            </div>
+                            <div class="button d-flex align-center">
+                                <a class="d-inblock button-shape f-13" href="profile.html">Profile</a>
+                                <a class="d-inblock button-shape f-13" href="#remove">Remove</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card p-rel bg-white rad-7 p-20">
+                        <div class="call d-flex align-center">
+                            <a class="d-inblock c-gray mr-5" href="#"><i class="fa-solid fa-phone"></i></a>
+                            <a class="d-inblock c-gray" href="#"><i class="fa-regular fa-envelope"></i></a>
+                        </div>
+                        <div class="image d-flex flex-column align-center mb-20 mt-20">
+                            <img class="d-inblock" src="images/friend-03.jpg" alt="">
+                            <h4 class="mt-20 mb-5">Amr Hendawy</h4>
+                            <p class="f-14 c-gray mt-0 mb-0">Cloud Developer</p>
+                        </div>
+                        <div class="list pt-15 pb-15 p-rel">
+                            <div class="item d-flex align-center mb-15 f-14">
+                                <i class="fa-regular fa-face-smile"></i>
+                                <span class="number d-inblock ml-10 mr-5">20</span>
+                                <span class="d-inblock">Friend</span>
+                            </div>
+                            <div class="item d-flex align-center mb-15 f-14">
+                                <i class="fa-solid fa-qrcode"></i>
+                                <span class="number d-inblock ml-10 mr-5">40</span>
+                                <span class="d-inblock">Projects</span>
+                            </div>
+                            <div class="item d-flex align-center f-14">
+                                <i class="fa-regular fa-newspaper"></i>
+                                <span class="number d-inblock ml-10 mr-5">90</span>
+                                <span class="d-inblock">Articles</span>
+                            </div>
+                        </div>
+                        <div class="date mt-15 flex-between">
+                            <div class="text c-gray f-13">
+                                <span class="d-inblock">Joined</span>
+                                <span class="d-inblock">02/10/2021</span>
+                            </div>
+                            <div class="button d-flex align-center">
+                                <a class="d-inblock button-shape f-13" href="profile.html">Profile</a>
+                                <a class="d-inblock button-shape f-13" href="#remove">Remove</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card p-rel bg-white rad-7 p-20">
+                        <div class="call d-flex align-center">
+                            <a class="d-inblock c-gray mr-5" href="#"><i class="fa-solid fa-phone"></i></a>
+                            <a class="d-inblock c-gray" href="#"><i class="fa-regular fa-envelope"></i></a>
+                        </div>
+                        <div class="image d-flex flex-column align-center mb-20 mt-20">
+                            <img class="d-inblock" src="images/friend-02.jpg" alt="">
+                            <h4 class="mt-20 mb-5">Gareeb Elshiekh</h4>
+                            <p class="f-14 c-gray mt-0 mb-0">JavaScript Developer</p>
+                        </div>
+                        <div class="list pt-15 pb-15 p-rel">
+                            <div class="vip">VIP</div>
+                            <div class="item d-flex align-center mb-15 f-14">
+                                <i class="fa-regular fa-face-smile"></i>
+                                <span class="number d-inblock ml-10 mr-5">20</span>
+                                <span class="d-inblock">Friend</span>
+                            </div>
+                            <div class="item d-flex align-center mb-15 f-14">
+                                <i class="fa-solid fa-qrcode"></i>
+                                <span class="number d-inblock ml-10 mr-5">40</span>
+                                <span class="d-inblock">Projects</span>
+                            </div>
+                            <div class="item d-flex align-center f-14">
+                                <i class="fa-regular fa-newspaper"></i>
+                                <span class="number d-inblock ml-10 mr-5">90</span>
+                                <span class="d-inblock">Articles</span>
+                            </div>
+                        </div>
+                        <div class="date mt-15 flex-between">
+                            <div class="text c-gray f-13">
+                                <span class="d-inblock">Joined</span>
+                                <span class="d-inblock">02/10/2021</span>
+                            </div>
+                            <div class="button d-flex align-center">
+                                <a class="d-inblock button-shape f-13" href="profile.html">Profile</a>
+                                <a class="d-inblock button-shape f-13" href="#remove">Remove</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end friends cards -->
+            </div>
+            <!-- end friends page -->
+
+        </div>
+        <!-- end content -->
+    </div>
+    <!-- end page -->
+</body>
+
+</html>
